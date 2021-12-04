@@ -24,6 +24,7 @@ public class Flipkart
   @Test
   public void flipkart() throws Exception 
   {
+	  System.out.println("Hello");
 	  w.get("https:\\www.google.com");
 	  WebElement p=w.findElement(By.name("q"));
 	  p.sendKeys("Flipkart");
