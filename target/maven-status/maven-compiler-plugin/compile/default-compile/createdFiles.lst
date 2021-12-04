@@ -1,0 +1,5 @@
+com\selenium\pageobject\assignment_julimer.class
+com\selenium\pageobject\TestBase.class
+com\selenium\basictest\App.class
+com\selenium\pageobject\FixedDeposit_PageObj.class
+com\selenium\pageobject\ListenerCode.class

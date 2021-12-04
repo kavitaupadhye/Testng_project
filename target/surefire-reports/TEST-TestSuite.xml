@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="116.892" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Sandeep\Desktop\Kavita\kavita_selenium_course\selenium-project"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Sandeep\Desktop\Kavita\kavita_selenium_course\selenium-project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sandeep\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="F:\Selenium_K\Selenium_plugin\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\python32;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\xampp\htdocs\yiicwebapp;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft VS Code\bin;C:\xampp\mysql\bin;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\Sandeep\AppData\Local\Android\Sdk;C:\Users\Sandeep\AppData\Local\Android\Sdk\tools;C:\Users\Sandeep\AppData\Local\Android\Sdk\platform-tools;C:\xampp\php\;C:\Users\MyUserName\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\WinMerge;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Python27;C:\Python27\scripts;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\Sandeep\AppData\Local\Programs\Python\Python39;C:\Users\Sandeep\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\TortoiseSVN\bin;F:\Selenium_K\Selenium_plugin\apache-maven-3.8.2\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files (x86)\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\bin;C:\Users\Sandeep\AppData\Roaming\npm;C:\Users\Sandeep\AppData\Local\Microsoft\WindowsApps;C:\Users\Sandeep\AppData\Local\Yarn\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\Sandeep\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\MinGW\bin;C:\Users\Sandeep\AppData\Local\Programs\Python\Python39;C:\Users\Sandeep\AppData\Local\Programs\Python\Python39\Scripts;;."/>
+    <property name="maven.conf" value="F:\Selenium_K\Selenium_plugin\apache-maven-3.8.2/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Sandeep"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="Sandeep"/>
+    <property name="java.class.path" value="F:\Selenium_K\Selenium_plugin\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="F:\Selenium_K\Selenium_plugin\apache-maven-3.8.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loginAdmin" classname="com.selenium.testng.LoginTestCase" time="10.181"/>
+  <testcase name="loginTestUser" classname="com.selenium.testng.LoginTestCase" time="6.372"/>
+  <testcase name="loginSpeed" classname="com.selenium.testng.LoginTestCase" time="6.149"/>
+  <testcase name="snapdealSearch" classname="com.selenium.testng.SearchSnapdeal" time="9.668"/>
+  <testcase name="firefoxBrowser" classname="com.selenium.testng.BrowserCode" time="61.192"/>
+  <testcase name="edgeBrowser" classname="com.selenium.testng.BrowserCode" time="30.717">
+    <failure message="session not created: This version of MSEdgeDriver only supports MSEdge version 94&#10;Current browser version is 96.0.1054.43 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-GOTDN6L&apos;, ip: &apos;192.168.31.206&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: EdgeDriver&#10;remote stacktrace: Backtrace:&#10;	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3202+11666]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF6F91D3+943811]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72395D+1117773]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72009D+1103245]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF719296+1075078]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF754420+1317136]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF74F61F+1297167]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72577F+1125487]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72688F+1129855]&#10;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6CF7DE9CD+17933]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF78DB41+1552433]&#10;	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF6CF991729+2633]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF78EBC9+1556665]&#10;	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3AC8+13912]&#10;	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3534+12484]&#10;	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3386+12054]&#10;	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF6CFA6465C+73452]&#10;	BaseThreadInitThunk [0x00007FFBEC5F7034+20]&#10;	RtlUserThreadStart [0x00007FFBED202651+33]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of MSEdgeDriver only supports MSEdge version 94
+Current browser version is 96.0.1054.43 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOTDN6L', ip: '192.168.31.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3202+11666]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF6F91D3+943811]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72395D+1117773]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72009D+1103245]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF719296+1075078]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF754420+1317136]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF74F61F+1297167]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72577F+1125487]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72688F+1129855]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6CF7DE9CD+17933]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF78DB41+1552433]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF6CF991729+2633]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF78EBC9+1556665]
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3AC8+13912]
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3534+12484]
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3386+12054]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF6CFA6465C+73452]
+	BaseThreadInitThunk [0x00007FFBEC5F7034+20]
+	RtlUserThreadStart [0x00007FFBED202651+33]
+
+	at com.selenium.testng.BrowserCode.edgeBrowser(BrowserCode.java:44)
+</failure>
+    <system-out><![CDATA[C:\Users\Sandeep\Desktop\Kavita\kavita_selenium_course\selenium-project
+]]></system-out>
+    <system-err><![CDATA[Starting MSEdgeDriver 94.0.992.50 (80a49a71b4e2d00a1499ea10b608fe26bb6f41e7) on port 28200
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+]]></system-err>
+  </testcase>
+</testsuite>

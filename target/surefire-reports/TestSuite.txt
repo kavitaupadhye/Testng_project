@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 116.892 sec <<< FAILURE! - in TestSuite
+edgeBrowser(com.selenium.testng.BrowserCode)  Time elapsed: 30.717 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of MSEdgeDriver only supports MSEdge version 94
+Current browser version is 96.0.1054.43 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOTDN6L', ip: '192.168.31.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3202+11666]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF6F91D3+943811]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72395D+1117773]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72009D+1103245]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF719296+1075078]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF754420+1317136]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF74F61F+1297167]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72577F+1125487]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72688F+1129855]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6CF7DE9CD+17933]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF78DB41+1552433]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF6CF991729+2633]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF78EBC9+1556665]
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3AC8+13912]
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3534+12484]
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3386+12054]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF6CFA6465C+73452]
+	BaseThreadInitThunk [0x00007FFBEC5F7034+20]
+	RtlUserThreadStart [0x00007FFBED202651+33]
+
+	at com.selenium.testng.BrowserCode.edgeBrowser(BrowserCode.java:44)
+

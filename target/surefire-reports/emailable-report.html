@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">RegressionSuite</th></tr>
+<tr><td><a href="#t0">Tc 01-Login Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">32,565</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Tc 02-Snapdeal Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">36,139</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Tc 03-Browser code</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">115,675</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">184,379</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">RegressionSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tc 01-Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.selenium.testng.LoginTestCase</td><td><a href="#m0">loginAdmin</a></td><td rowspan="1">1638601024058</td><td rowspan="1">13797</td></tr><tr class="passedeven"><td><a href="#m1">loginSpeed</a></td><td rowspan="1">1638601044238</td><td rowspan="1">6148</td></tr><tr class="passedeven"><td><a href="#m2">loginTestUser</a></td><td rowspan="1">1638601037865</td><td rowspan="1">6371</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Tc 02-Snapdeal Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.selenium.testng.SearchSnapdeal</td><td><a href="#m3">snapdealSearch</a></td><td rowspan="1">1638601024516</td><td rowspan="1">29389</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Tc 03-Browser code &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.selenium.testng.BrowserCode</td><td><a href="#m4">edgeBrowser</a></td><td rowspan="1">1638601105431</td><td rowspan="1">30703</td></tr><tr><th colspan="4">Tc 03-Browser code &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.selenium.testng.BrowserCode</td><td><a href="#m5">firefoxBrowser</a></td><td rowspan="1">1638601027679</td><td rowspan="1">77751</td></tr></tbody>
+</table>
+<h2>Tc 01-Login Test</h2><h3 id="m0">com.selenium.testng.LoginTestCase#loginAdmin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.selenium.testng.LoginTestCase#loginSpeed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.selenium.testng.LoginTestCase#loginTestUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Tc 02-Snapdeal Test</h2><h3 id="m3">com.selenium.testng.SearchSnapdeal#snapdealSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Tc 03-Browser code</h2><h3 id="m4">com.selenium.testng.BrowserCode#edgeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of MSEdgeDriver only supports MSEdge version 94
+Current browser version is 96.0.1054.43 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GOTDN6L&apos;, ip: &apos;192.168.31.206&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3202+11666]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF6F91D3+943811]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72395D+1117773]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72009D+1103245]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF719296+1075078]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF754420+1317136]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF74F61F+1297167]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72577F+1125487]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF72688F+1129855]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6CF7DE9CD+17933]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF78DB41+1552433]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF6CF991729+2633]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6CF78EBC9+1556665]
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3AC8+13912]
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3534+12484]
+	Microsoft::Applications::Events::EventProperties::SetName [0x00007FF6CFAC3386+12054]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF6CFA6465C+73452]
+	BaseThreadInitThunk [0x00007FFBEC5F7034+20]
+	RtlUserThreadStart [0x00007FFBED202651+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at com.selenium.testng.BrowserCode.edgeBrowser(BrowserCode.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.selenium.testng.BrowserCode#firefoxBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

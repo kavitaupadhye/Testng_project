@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="4" parallel="tests" thread-count="3">
+  <test  name="Tc 01-Login Test">
+    <classes>
+                 <class name="com.selenium.testng.LoginTestCase"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+  
+  <test  name="Tc 02-Snapdeal Test">
+    <classes>
+                    <class name="com.selenium.testng.SearchSnapdeal"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+  
+  <test  name="Tc 03-Browser code">
+    <classes>
+                   <class name="com.selenium.testng.BrowserCode"/>
+ 
+    </classes>
+  </test> <!-- RegressionTest -->
+  
+</suite> <!-- Suite -->
