@@ -20,6 +20,7 @@ public class SearchSnapdeal {
 
 	public static void main(String[] args) throws Exception 
 	{
+		System.out.println("Hello Selenium");
 	   String projectPath=System.getProperty("user.dir");
 	   System.out.println(projectPath);
 	   System.setProperty("webdriver.chrome.driver",projectPath+"\\BrowserDriver\\chromeDriver.exe");
